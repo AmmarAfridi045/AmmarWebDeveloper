@@ -1,0 +1,155 @@
+
+/* //////////////////////////////////////////// MEDIA FOR NAV TAB //////////////////////////////////////// */
+ 
+
+@media screen and (max-width:991px) {
+    .backgroundimgnav {
+        background: url("/image/background.jpg") 0% 0% / cover rgba(0, 0, 0,0.6);
+        background-blend-mode: darken;
+   }
+   .nav{
+       display: block;
+   }
+   
+    .navlist {
+       display:none;
+       width: 100%;
+       text-align: center;
+    }
+    .navlist li {
+        padding: 10px 0px;
+    }
+    .navlist li a {
+        display: block;
+        padding: 12px 0px;
+    }
+    
+    .logo{
+        display: none;
+        padding: 15px;
+   }
+    .logo img {
+        padding: 0px;
+        margin: 0px;
+        display: none;
+   }
+    .searchbar {
+        display: inline-block;
+        padding: 5px 0px 5px 15px;
+        width: 80%;
+   }
+    .searchbar input[type="text"] {
+        border: 2px solid #ffa9a9;
+   }
+    .searchbtn {
+        padding-left: 7px;
+        display: inline-block;
+   }
+   .icon{
+       display: inline-block;
+       font-size: 30px;
+       color: white;
+       padding-top: 7px;
+   }
+   .hamburger{
+    
+padding: 0px 15px 0px 15px;
+    
+margin: 0;
+}
+    .btn {
+        display: block;
+        margin-bottom: 0px;
+        padding: 7px 15px;
+        border: 2px solid #ffa9a9;
+   }
+    .menuBtn{
+        display: flex;
+        padding: 15px;
+   }
+    .menuBtn img{
+        display: flex;
+   }
+   
+   
+}
+
+/* //////////////////////////////////////// MEIDA FOR MAIN PAGE //////////////////////////////////////// */
+
+
+@media screen and (max-width: 991px){
+    .backgroundimg{
+        height: auto;
+        background: url(/image/background.jpg) 0% 0% / cover rgba(0, 0, 0, 0.7);
+        background-blend-mode: darken;
+    }
+    .webDevelopment{
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+    .mainContainer{
+        padding: 20px;
+        width: auto;
+    }
+    .mainHeading{
+        padding: 0;
+        margin-top: 50px;
+        text-align: center;
+        font-size: 30px;
+    }
+    .mainParagraph{
+        padding: 3%;
+        text-align: center;
+        font-size: 12px;
+    }
+    .mainimg{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .mainimg img{
+        width: 280px;
+    }
+    .webDevelopment1{
+        padding: 0px;
+        margin: 0;
+        display: block;
+    }
+    .mainContainer1{
+        padding: 20px;
+        display: block;
+        width: auto;
+    }
+    .mainHeading1{
+        padding: 0;
+        text-align: center;
+        font-size: 30px;
+    }
+    .mainParagraph1{
+        padding: 3%;
+        font-size: 12px;
+        text-align: center;
+    }
+    .mainimg1{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .mainimg1 img{
+        float: none;
+        width: 280px;
+    }
+}
+
+/* /////////////////////////////////////////MEDIA FOR FOOTER///////////////////////////////////////////////// */
+
+
+@media screen and (max-width: 991px){
+    p.text-footer{
+        width: 100%;
+        padding: 20px 0px;
+   }
+}

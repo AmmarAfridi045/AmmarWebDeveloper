@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"); * {
+    padding: 0%;
+    margin: 0%;
+    font-family: Ubuntu, sans-serif;
+}
+
+.backgroundimgnav {
+    background: url("/image/background.jpg") 0% 0% / cover rgb(12, 14, 10);
+    background-blend-mode: darken;
+}
+
+.backgroundimg {
+    background: url("/image/background.jpg") 0% 0% / cover rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    height: 160vh;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.navlist {
+    width: 50%;
+    display: flex;
+    list-style: none;
+    padding: 12px 10px;
+    align-items: center;
+}
+
+.navlist li {
+    padding: 15px 30px;
+}
+
+.navlist li a {
+    text-decoration: none;
+    padding: 12px;
+    color: white;
+    font-weight: bold;
+}
+
+.navlist a:hover {
+    text-decoration: none;
+    padding: 12px;
+    color: rgb(252, 104, 0);
+    transition-duration: 0.9s;
+}
+
+.btn {
+    background-color: rgb(76, 175, 80);
+    border: none;
+    color: white;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    transition-duration: 0.7s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: green;
+}
+
+.searchbar input[type="text"] {
+    background-color: rgb(255, 255, 255);
+    background-image: url("/image/searchicon.png");
+    background-position: 4px 1px;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    padding: 7px 15px 7px 35px;
+    display: inline-block;
+}
+
+.searchbar input[type="text"]:focus {
+    outline: none;
+}
+
+input::placeholder {
+    padding-left: 5px;
+}
+
+.logo img {
+    width: 50px;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-right: 15px;
+}
+
+.menuBtn {
+    display: none;
+}
+
+.menuBtn img {
+    width: 30px;
+    display: block;
+}
+
+.icon {
+    display: none;
+}
+
+
+.webDevelopment {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 135px;
+}
+
+.mainContainer {
+    width: 50%;
+    padding-left: 158px;
+}
+
+.mainHeading {
+    color: white;
+    padding-left: 65px;
+    font-size: 40px;
+}
+
+.h1color {
+    color: orange;
+}
+
+.mainParagraph {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: white;
+    padding-left: 65px;
+    padding-right: 50px;
+}
+
+.mainimg {
+    display: flex;
+    width: 50%;
+}
+
+.mainimg img {
+    width: 330px;
+    border: 1px solid white;
+}
+
+.webDevelopment1 {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 70px;
+}
+
+.mainContainer1 {
+    width: 50%;
+    padding-right: 160px;
+}
+
+.mainHeading1 {
+    color: white;
+    padding-left: 65px;
+    font-size: 40px;
+}
+
+.mainParagraph1 {
+    color: white;
+    padding-left: 65px;
+    padding-right: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.mainimg1 {
+    width: 50%;
+    float: right;
+}
+
+.mainimg1 img {
+    width: 340px;
+    float: right;
+    border: 1px solid white;
+}
+
+.backgroundimgServices {
+    background: url("/image/background.jpg") 0% 0% / cover rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    height: 175vh;
+}
+
+.container {
+    flex-direction: column;
+    color: white;
+}
+
+.sectionOfDevelopment {
+    display: flex;
+    justify-content: center;
+    padding-top: 90px;
+}
+.sectionOfDevelopment h1{
+    color: orange;
+    font-size: 30px;
+}
+
+.fleximage {
+    width: 25%;
+    padding: 0px 75px;
+    align-items: center;
+}
+
+.fleximage a {
+    text-decoration: none;
+    padding: 12px 0px;
+    color: rgb(33, 150, 243);
+    font-weight: bold;
+}
+
+.fleximage a:hover {
+    text-decoration: none;
+    padding: 12px;
+    color: rgb(252, 104, 0);
+    transition-duration: 0.9s;
+}
+
+.html img {
+    width: 215px;
+    height: 150px;
+    padding-left: 25px;
+}
+
+.css img {
+    width: 175px;
+    height: 150px;
+    padding-left: 40px;
+}
+
+.js img {
+    width: 145px;
+    padding-left: 65px;
+    height: 130px;
+    padding-bottom: 10px;
+}
+
+.php img {
+    width: 175px;
+    height: 130px;
+    padding-left: 40px;
+}
+
+.backgroundimgAbout {
+    background: url("/image/background.jpg") 0% 0% / cover rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    height: 100vh;
+}
+
+.Aboutpage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.About_container {
+    width: 70%;
+}
+
+.Aboutcontainer {
+    width: 60%;
+    float: right;
+    padding-right: 40px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.AboutHeading {
+    font-size: 45px;
+}
+.aboutH1{
+    color: orange;
+}
+
+.Ammari {
+    width: 50%;
+}
+
+.Ammari img {
+    width: 300px;
+    height: 275px;
+    float: left;
+    border: 2px solid white;
+}
+
+.linkspersonal{
+    padding-left: 20%;
+}
+.linkspersonal a{
+    font-family: 'FontAwesome';
+}
+
+.fa{
+    padding: 30px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    transition-duration: 0.9s;
+}
+
+.fa-facebook {
+    background: rgb(59, 89, 152);
+    color: white;
+}
+
+.fa-instagram {
+    background: rgb(18, 86, 136);
+    color: white;
+}
+
+.fa-google {
+    background: rgb(221, 75, 57);
+    color: white;
+}
+
+:focus {
+    outline: none;
+}
+
+#login-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url("/image/background.jpg") 0% 0% / cover rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+
+.left {
+    width: 255px;
+    padding: 40px 0px;
+}
+
+.left h1 {
+    margin: 0px 0px 20px;
+    font-weight: 300;
+    font-size: 28px;
+    color: white;
+}
+
+.left input[type="text"], .left input[type="password"] {
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 4px;
+    width: 220px;
+    height: 32px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-image: initial;
+    border-bottom: 1px solid rgb(170, 170, 170);
+    font-weight: 400;
+    font-size: 15px;
+    transition: all 0.2s ease 0s;
+}
+
+.left input[type="text"]:focus, .left input[type="password"]:focus {
+    color: rgb(22, 160, 133);
+    transition: all 0.2s ease 0s;
+    border: 2px solid rgb(76, 175, 80);
+}
+
+.left input[type="submit"] {
+    margin-top: 28px;
+    width: 120px;
+    height: 32px;
+    background: rgb(22, 160, 133);
+    border: none;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all 0.1s ease 0s;
+    cursor: pointer;
+}
+
+.left input[type="submit"]:hover, input[type="submit"]:focus {
+    opacity: 0.8;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px;
+    transition: all 0.1s ease 0s;
+}
+
+.left input[type="submit"]:active {
+    opacity: 1;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 1px 2px;
+    transition: all 0.1s ease 0s;
+}
+
+.or {
+    padding: 10px;
+}
+
+.right {
+    padding: 0px 35px;
+    width: 225px;
+    background: url("https: //goo.gl/YbktSj");
+}
+
+.right .loginwith {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+
+button.social-signin {
+    width: 220px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    margin: 13px 0px;
+}
+button.social-signin a{
+   color: white;
+   text-decoration: none;
+}
+
+button.social-signin.facebook {
+    background: rgb(50, 80, 142);
+    margin-top: 20px;
+}
+
+button.social-signin.facebook:hover{
+    background-color: blue;
+    color: white;
+    transition-duration: 0.9s;
+}
+button.social-signin.twitter {
+    background: rgb(85, 172, 238);
+}
+button.social-signin.twitter:hover{
+    background-color: rgb(61 127 177);
+    color: white;
+    transition-duration: 0.9s;
+
+}
+
+button.social-signin.google {
+    background: rgb(221, 75, 57);
+}
+button.social-signin.google:hover{
+    background-color: red;
+    color: white;
+    transition-duration: 0.9s;
+
+}
+
+.bg-footer {
+    background-color: black;
+}
+
+.text-footer {
+    color: white;
+    text-align: center;
+    padding: 30px 0px;
+}
